@@ -16,7 +16,7 @@ class Tree
 end
 
 ruby_tree = Tree.new("Grandpa",
-	[Tree.new("Papa", [Tree.new("Son"), Tree.new("daughter")]), Tree.new("Uncle", [Tree.new("Niece"), Tree.new("Nefew")])]
+	[Tree.new("Papa", [Tree.new("Son"), Tree.new("daughter")]), Tree.new("Uncle", [Tree.new("Niece"), Tree.new("Nephew")])]
 )
 
 puts "visiting all nodes"
