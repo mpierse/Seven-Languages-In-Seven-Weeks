@@ -1,5 +1,7 @@
 # day-two-tree-rb
 
+#adjust the tree class so it accespts nested structure of hashes
+
 class Tree
 
 	attr_accessor :children, :node_name
